@@ -1,0 +1,37 @@
+{
+    "name": "Dream",
+    "description": "Bob`s Theme Dream",
+    "version": "1.7.3",
+    "images": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2160&q=80",
+    "configs": [
+        {
+            "label": "iOS下载地址",
+            "placeholder": "请输入iOS下载地址",
+            "field_name": "ios",
+            "field_type": "input",
+            "default_value": "https://www.baidu.com"
+        },{
+            "label": "Android下载地址",
+            "placeholder": "请输入Android下载地址",
+            "field_name": "android",
+            "field_type": "input",
+            "default_value": "https://www.baidu.com"
+        },{
+            "label": "Windows下载地址",
+            "placeholder": "请输入Windows下载地址",
+            "field_name": "windows",
+            "field_type": "input",
+            "default_value": "https://www.baidu.com"
+        },{
+            "label": "Mac下载地址",
+            "placeholder": "请输入Mac下载地址",
+            "field_name": "mac",
+            "field_type": "input",
+            "default_value": "https://www.baidu.com"
+        }, {
+            "label": "自定义页脚HTML",
+            "placeholder": "可以实现客服JS代码的加入等",
+            "field_name": "custom_html",
+            "field_type": "textarea"
+        }]
+}
